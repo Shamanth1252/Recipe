@@ -1,0 +1,51 @@
+.about-container {
+    background-image: url("https://septemberfarmcheese.b-cdn.net/wp-content/uploads/Blogs/Homemade-Pizza/homemade-pizza-monterey-jack-cheese.jpg");
+background-size: cover;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-content {
+    height: 400px;
+    max-width: 800px;
+    text-align: center;
+    padding: 40px;
+    background-image: url("https://img.freepik.com/premium-vector/cook-logo-with-fire-design_636083-61.jpg");
+    background-size:cover;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-content h1 {
+    color: #8b4513;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about {
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* @media (max-width: 768px) {
+    .about-content {
+        padding: 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+} */

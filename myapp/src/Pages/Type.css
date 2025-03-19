@@ -1,0 +1,83 @@
+.main3 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 120px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-image: url("https://www.foodiesfeed.com/wp-content/uploads/2023/09/fresh-vegetables.jpg");
+}
+
+.search-bar {
+  width: 80%;
+  padding: 10px;
+
+  margin-top: 25px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.card2 {
+  border: 5px solid black;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 10px 10px black;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+#res {
+  height: 200px;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+/* Popup Styling */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  position: relative;
+}
+
+/* Close Button Styling */
+.close-btn {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  font-size: 20px;
+  padding: 5px 5px;
+  /* background: red; */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+
+.close-btn:hover {
+  background: darkred;
+}
+
+.popup-content img {
+  width: 100%;
+  border-radius: 10px;
+}

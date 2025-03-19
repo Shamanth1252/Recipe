@@ -1,0 +1,26 @@
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    padding: 20px;
+ 
+    
+}
+li{
+    list-style: none;
+    color: brown;
+    cursor: pointer;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+#copy{
+    margin-top: 20px;
+text-align: center;
+padding-bottom: 20px;
+}
+.main{
+    background-color: brown;
+}

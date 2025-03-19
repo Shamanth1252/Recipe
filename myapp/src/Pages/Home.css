@@ -1,0 +1,44 @@
+.main2 {
+    background-image: url("https://www.mowglistreetfood.com/wp-content/uploads/2023/01/Landing_image_Desktop.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+  
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    padding-top: 100px;
+    background-image: url("https://img.freepik.com/free-photo/delicious-epic-food-presentation_23-2151888664.jpg");
+  background-size: cover;
+  opacity: 1;
+
+
+}
+.home-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    
+    
+}
+.welcome p{
+    color: pink;
+    font-family: "Poppins", sans-serif;
+}
+.welcome h1{
+    padding-bottom:40px ;
+    color: wheat;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+.welcome:hover{
+    opacity: 0.8;
+}
+
